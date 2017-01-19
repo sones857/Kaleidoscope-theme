@@ -1,0 +1,124 @@
+#FUNCTIONS COLOR 			#F9D647 - YELLOW			KEYWORD1
+#FUNCTIONS COLOR			#35BCF5 - BLUE			KEYWORD2
+#STRUCTURE COLORS 			#4ADBC8 - GREEN			KEYWORD3
+#VARIABLES COLOR 				#F559D0 - PINK				LITERAL1
+
+#ERROR COLOR					#A61717 - RED
+#COMMENTS // COLOR			#898787 - GREY
+#COMMENTS /**/ COLOR		#898787	- GREY
+
+
+# GUI - STATUS
+status.notice.fgcolor = #9BE2E6   
+status.notice.bgcolor = #333333
+status.error.fgcolor = #FFFFFF
+status.error.bgcolor = #E34C00
+status.edit.fgcolor = #000000
+status.edit.bgcolor = #F1B500
+status.font = SansSerif,plain,12
+
+# GUI - TABS
+# settings for the tabs at the top
+# (tab images are stored in the lib/theme folder)
+header.bgcolor = #404040
+header.text.selected.color = #323232
+header.text.unselected.color = #3C3C3C
+header.text.font = SansSerif,plain,12
+
+# GUI - CONSOLE
+console.font = Monospaced,plain,11
+console.font.macosx = Monaco,plain,10
+console.color = #000000
+console.output.color = #eeeeee
+console.error.color = #E34C00
+
+# GUI - BUTTONS
+buttons.bgcolor = #505050
+buttons.status.font = SansSerif,plain,12
+buttons.status.color = #ffffff
+
+# GUI - LINESTATUS#FFFFFF
+linestatus.color = #ffffff
+linestatus.bgcolor = #404040
+
+# EDITOR - DETAILS
+
+# foreground and background colors
+editor.fgcolor = #ffffff
+editor.bgcolor = #202020
+
+# highlight for the current line
+editor.linehighlight.color=#333333
+# highlight for the current line
+editor.linehighlight=true
+
+# caret blinking and caret color
+editor.caret.color = #a0a0a0
+
+# color to be used for background when 'external editor' enabled
+editor.external.bgcolor = #c8d2dc
+
+# selection color
+editor.selection.color = #dd8800
+
+# area that's not in use by the text (replaced with tildes)
+editor.invalid.style = #7e7e7e,bold
+
+# little pooties at the end of lines that show where they finish
+editor.eolmarkers = false
+editor.eolmarkers.color = #999999
+
+# bracket/brace highlighting
+editor.brackethighlight = true
+editor.brackethighlight.color = #006699
+
+
+# TEXT - KEYWORDS
+
+# FUNCTIONS
+editor.keyword1.style = #09AF11,bold
+editor.data_type.style = #09AF11,bold
+
+# METHODS
+editor.keyword2.style = #F9B029,plain
+editor.function.style = #F9B029,plain
+
+# STRUCTURES
+editor.keyword3.style = #4ADBC8,plain
+editor.reserved_word.style = #4ADBC8,plain
+
+
+# TEXT - LITERALS
+
+# constants & datatypes
+editor.literal1.style = #006699,plain
+
+# p5 built in variables: e.g. mouseX, width, pixels
+editor.literal2.style = #4ADBC8,plain
+editor.variable.style = #4ADBC8,plain
+editor.reserved_word_2.style = #4ADBC8,plain
+editor.literal_boolean.style = #4ADBC8,plain
+editor.literal_char.style = #4ADBC8,plain
+editor.literal_string_double_quote.style = #4ADBC8,plain
+editor.preprocessor.style = #4ADBC8,plain
+
+# http://www.arduino.cc/ - GET RID OF UNDERLINE!
+editor.url.style = #81A421,plain
+
+# e.g. + - = /
+editor.operator.style = #aaaaaa,plain
+
+
+# ?? maybe this is for words followed by a colon
+# like in case statements or goto
+editor.label.style = #7e7e7e,bold
+
+
+# TEXT - COMMENTS
+editor.comment1.style = #ED056C,plain
+editor.comment2.style = #ED056C,plain
+
+
+# LINE STATUS - editor line number status bar at the bottom of the screen
+linestatus.font	   = SansSerif,plain,10
+linestatus.height  = 20
